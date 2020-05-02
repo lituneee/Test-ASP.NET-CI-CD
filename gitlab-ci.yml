@@ -66,6 +66,8 @@ test_job:
 
 deploy_job:
   stage: deploy
+  environment:
+        name: staging
   only:
     - tags
   script:
