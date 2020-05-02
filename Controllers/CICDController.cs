@@ -15,7 +15,7 @@ namespace GITLABCICD.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        // GET: api/CICD/5
+        // GET: api/CICD/51
         public string Get(int id)
         {
             return "value";
