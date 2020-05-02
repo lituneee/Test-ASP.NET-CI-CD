@@ -9,7 +9,7 @@ namespace GITLABCICD.Controllers
 {
     public class CICDController : ApiController
     {
-        // GET: api/CICD
+        // GET: api/CICD Test
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
